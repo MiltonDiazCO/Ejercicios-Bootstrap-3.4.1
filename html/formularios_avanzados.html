@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios avanzados</title>
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0
+    maximum-scale=1.0, minium-scale=1.0">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!-- formularios basicos -->
+
+		<div class="row">
+			<br>
+			<h2>Formularios Basicos</h2>
+			<form action="" class="">
+
+				<div class="form-group">
+					<label for="nombre">Nombre:</label>
+					<input class="form-control" id="nombre" type="text" placeholder="Nombre">
+				</div>
+
+				<div class="form-group">
+					<label for="option">Elige una opcion</label>
+					<select class="form-control" name="" id="option">
+						<option value="">Opcion 1</option>
+						<option value="">Opcion 2</option>
+						<option value="">Opcion 3</option>
+						<option value="">Opcion 4</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="mensaje">Mensaje</label>
+					<textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+				</div>
+
+				<div class="form-group">
+					<label for="archivo">Archivo</label>
+					<input type="file" id="archivo">
+					<p class="help-bl">Maximo 50 Mb</p>
+				</div>
+
+				<button class="btn btn-primary">Enviar</button>
+			</form>
+		</div>
+
+		<hr>
+
+		<!--/.formularios en linea-->
+
+		<div class="row">
+
+			<h2>Formularios en linea</h2>
+
+			<form action="" class="form-inline">
+
+				<div class="form-group">
+					<label for="nombre">Nombre:</label>
+					<input class="form-control" id="" type="text" placeholder="nombre:">
+				</div>
+
+				<div class="form-group">
+					<div class="input-group">
+						<label class="sr-only" for="correo">Correo:</label>
+						<div class="input-group-addon">@</div>
+						<input class="form-control" id="correo" type="text" placeholder="correo">
+					</div>
+				</div>
+
+				<div class="checkbox">
+					<label for="">
+						<input type="checkbox" name="" id="">
+						Recuerdame
+					</label>
+				</div>
+
+				<button class="btn btn-primary">Enviar</button>
+
+			</form>
+		</div>
+	</div> <!-- /.container-->
+
+
+	<!-- scripts -->
+	<script class="../assets/js/bootstrap.js"></script>
+	<script class="../assets/js/jquery-3.5.1.min.js"></script>
+</body>
+
+</html>
